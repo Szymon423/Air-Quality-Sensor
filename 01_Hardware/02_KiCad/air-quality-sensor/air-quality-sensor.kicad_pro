@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 36.8,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -78,40 +78,68 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|146950000|61255000|82b0e769-0716-4cd4-bdab-2cc6f72d40ed|56de9994-8cde-4fa8-93f6-94c7cd1ae2f9",
-          "USB-footprint-related-OK"
-        ],
-        [
-          "hole_clearance|146950000|61255000|91a77018-70b7-4f8e-9cdc-92a13f397a98|56de9994-8cde-4fa8-93f6-94c7cd1ae2f9",
-          "USB-footprint-related-OK"
-        ],
-        [
-          "hole_clearance|153050000|61255000|23eddc43-1e2c-4472-839b-56570cae74c5|a24688f1-2309-419c-8457-fd8ce8d7855b",
-          "USB-footprint-related-OK"
-        ],
-        [
-          "hole_clearance|153050000|61255000|b25737c6-c64c-46c2-b21a-a3a05740b082|a24688f1-2309-419c-8457-fd8ce8d7855b",
-          "USB-footprint-related-OK"
-        ],
-        [
-          "items_not_allowed|163380761|122258578|feceadd3-e6ce-4bea-8c24-86dbbb6808d1|00000000-0000-0000-0000-000000000000",
+          "clearance|118899998|101700971|3e9139c5-4125-4280-b227-fa47ca66c343|b9095a18-04b5-4d02-a694-2d8ed667dfa9",
           ""
         ],
         [
-          "items_not_allowed|163946446|121692893|fc0dd72f-8781-4b04-bcc6-374a13b1f1eb|00000000-0000-0000-0000-000000000000",
+          "clearance|119500000|101950001|3bd90a4e-917c-495f-b221-9771dbcfff95|b9095a18-04b5-4d02-a694-2d8ed667dfa9",
           ""
         ],
         [
-          "items_not_allowed|164653554|123107107|aa9b7ff7-dcb2-4324-9e2d-c4199a1c6edf|00000000-0000-0000-0000-000000000000",
+          "clearance|120700000|109900000|66b212f8-4d30-418d-be7b-9f9557d9a4d0|b9095a18-04b5-4d02-a694-2d8ed667dfa9",
           ""
         ],
         [
-          "items_not_allowed|165219239|122541422|c1eaaa22-dbd3-4e84-94d0-ec73a964a12f|00000000-0000-0000-0000-000000000000",
+          "clearance|121032847|101698308|b9095a18-04b5-4d02-a694-2d8ed667dfa9|bb0dd811-04de-49a3-b778-a76ad6420d31",
           ""
         ],
         [
-          "lib_footprint_mismatch|140092500|125007500|5c52ae6b-ea47-4b52-818b-aa83e1d7f4df|00000000-0000-0000-0000-000000000000",
-          "footprint malformed"
+          "clearance|123379998|101697578|39598e93-8b94-44c6-bb2a-83614651ae35|b9095a18-04b5-4d02-a694-2d8ed667dfa9",
+          ""
+        ],
+        [
+          "clearance|125939998|101707030|b9095a18-04b5-4d02-a694-2d8ed667dfa9|f5f378a9-ea26-4ed3-877c-09f27a9344a7",
+          ""
+        ],
+        [
+          "clearance|126899998|109950001|3566abf1-70c8-455a-9774-5133057b3eb5|b9095a18-04b5-4d02-a694-2d8ed667dfa9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|145680000|67000000|7216966c-20d6-4cf1-90c5-743c4881cd84|7e8b0f36-507c-49ef-9ae2-f452cba4503a",
+          ""
+        ],
+        [
+          "copper_edge_clearance|154320000|67000000|7216966c-20d6-4cf1-90c5-743c4881cd84|53e07cf3-2c20-4806-a94c-b8709634380f",
+          ""
+        ],
+        [
+          "hole_clearance|146950000|70930000|82b0e769-0716-4cd4-bdab-2cc6f72d40ed|56de9994-8cde-4fa8-93f6-94c7cd1ae2f9",
+          ""
+        ],
+        [
+          "hole_clearance|146950000|70930000|91a77018-70b7-4f8e-9cdc-92a13f397a98|56de9994-8cde-4fa8-93f6-94c7cd1ae2f9",
+          ""
+        ],
+        [
+          "hole_clearance|153050000|70930000|23eddc43-1e2c-4472-839b-56570cae74c5|a24688f1-2309-419c-8457-fd8ce8d7855b",
+          ""
+        ],
+        [
+          "hole_clearance|153050000|70930000|b25737c6-c64c-46c2-b21a-a3a05740b082|a24688f1-2309-419c-8457-fd8ce8d7855b",
+          ""
+        ],
+        [
+          "items_not_allowed|164080761|115258578|29810965-963a-46f2-a285-7d18ebbd783e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|164646446|114692893|5f282829-fed4-44ac-b5dd-0e6fed63355e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|165353554|116107107|d81bd037-e485-48ea-8854-294a7b87e1a4|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
           "silk_overlap|131396042|96744939|b4f44cb8-6b69-488d-b833-9677b771e11d|ee2d945f-5d73-497f-88ea-58d46c7ac916",
@@ -124,70 +152,6 @@
         [
           "silk_overlap|131416944|99250294|b4f44cb8-6b69-488d-b833-9677b771e11d|c46b0305-6b52-42c2-acc2-73fa827c9cee",
           ""
-        ],
-        [
-          "unconnected_items|114000000|100000000|F.Cu|4|4a713b3f-73b5-46f7-87e5-d9f8b65c98a5|16a6e78f-a0b3-4ef6-ae5b-2e0444a84bed",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|114000000|100000000|F.Cu|4|4a713b3f-73b5-46f7-87e5-d9f8b65c98a5|7b6ed591-a063-4570-81d3-6d6b0eb21ec4",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|115971640|113051948|F.Cu|4|7b6ed591-a063-4570-81d3-6d6b0eb21ec4|788a1254-eedc-4227-9663-4d55b13350d6",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|116771640|85248049|F.Cu|4|eaad178b-9c7c-4c29-a87e-06ee5349f1dc|dd326c9f-8377-44ae-88a3-b891804008ae",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|124921322|73621320|F.Cu|4|dd326c9f-8377-44ae-88a3-b891804008ae|4950e3af-dcec-4434-866a-f82531610194",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|136999503|66561399|F.Cu|4|4950e3af-dcec-4434-866a-f82531610194|e59f134c-c926-43b7-a32e-45910b9f9bdc",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|149099999|136399999|F.Cu|4|e69d4afc-3f98-4365-8c24-a7eaa07aa92d|6e00e3c9-1e0d-4ac9-a1fb-123892dbfce0",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|150000000|136000000|F.Cu|4|4a713b3f-73b5-46f7-87e5-d9f8b65c98a5|e69d4afc-3f98-4365-8c24-a7eaa07aa92d",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|150000000|64000000|F.Cu|4|4a713b3f-73b5-46f7-87e5-d9f8b65c98a5|511a9b9f-0126-4504-b5eb-6691a6608c6a",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|163051948|134028361|F.Cu|4|aebfe05c-f741-491e-a416-76db33bc4dcc|187a346c-7131-4003-bc42-c54a2e302401",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|163051948|134028361|F.Cu|4|aebfe05c-f741-491e-a416-76db33bc4dcc|4a713b3f-73b5-46f7-87e5-d9f8b65c98a5",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|164751950|66671640|F.Cu|4|825fa9d1-d106-446b-8e55-b87d01bdd000|511a9b9f-0126-4504-b5eb-6691a6608c6a",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|176378679|74821322|F.Cu|4|cfa02001-5983-4db5-8090-0c60f0f76d31|825fa9d1-d106-446b-8e55-b87d01bdd000",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|184100000|98100000|F.Cu|4|54a66f30-62c2-4ffd-b9e6-1c4dc0063ac8|0add54f5-8e48-4f95-9dc3-52dc6712bde6",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|186000000|100000000|F.Cu|4|4a713b3f-73b5-46f7-87e5-d9f8b65c98a5|457c22e8-9d24-4013-b7b8-69f8e00b156c",
-          "KiCAD-Thing"
-        ],
-        [
-          "unconnected_items|186399998|100900001|F.Cu|4|457c22e8-9d24-4013-b7b8-69f8e00b156c|7aa9a057-95dc-437b-bb4c-086a07e0e120",
-          "KiCAD-Thing"
         ]
       ],
       "meta": {
@@ -301,7 +265,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -312,7 +276,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -634,7 +598,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       }
