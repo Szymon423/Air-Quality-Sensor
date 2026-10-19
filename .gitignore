@@ -1,0 +1,36 @@
+# ---- KiCad ----
+*-backups/
+_autosave-*
+*-save.kicad_pcb
+*-save.kicad_sch
+*.kicad_prl
+*-unsaved-export-*
+fp-info-cache
+~*.lck
+*.lck
+*.bak
+*.log
+
+# Generated exports (publish them in GitHub Releases instead)
+*.step
+*.stl
+!01_Hardware/03_3D_Model/3D-Printing/*.stl
+
+# ---- Blender ----
+*.blend1
+*.blend2
+
+# ---- Full-resolution renders (web-optimized copies live in docs/images) ----
+01_Hardware/03_3D_Model/Renders/
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Firmware (future) ----
+build/
+.pio/
+sdkconfig.old
+managed_components/
